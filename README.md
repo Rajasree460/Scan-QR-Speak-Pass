@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Scan QR Speak Pass
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have made an employee card ,that contains some basic details. There is a QR at the below of the card. Scan the QR & if you are scanning it at 10 AM or between 12 Am-10 Am,you can see the message 'Welcome to work!" within an alert box. By any chance if you are late by 1 or more minutes then you can see the message "Sorry, you are late!" .
+Details
+Employee Card Description
+This employee card is designed to display essential details about an employee along with a QR code that provides real-time feedback based on the time of scanning.
 
-## Available Scripts
+Components of the Employee Card:
+Avatar Section:
 
-In the project directory, you can run:
+Displays the employee's photo within a circular avatar.
+The avatar is enhanced with a background color to make it stand out.
+Employee Information:
 
-### `npm start`
+Name: The full name of the employee.
+Title: The employee's current designation or role.
+ID: A unique identifier for the employee.
+QR Code Section:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Positioned at the bottom of the card.
+The QR code encodes a message that changes based on the current time.
+Functionalities:
+Time-Based Messages:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Welcome Message: If the QR code is scanned at exactly 10 AM or between 12 AM to 10 AM, the message "Welcome to work!" is displayed within an alert box.
+Late Message: If the QR code is scanned even one minute past 10 AM, the message "Sorry, you are late!" is displayed within an alert box.
+Real-Time Feedback:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The QR code functionality leverages the moment-timezone library to accurately determine the time in the specified timezone (Asia/Kolkata).
+Upon scanning the QR code, the system checks the current time and displays the appropriate alert message based on the conditions mentioned above.
