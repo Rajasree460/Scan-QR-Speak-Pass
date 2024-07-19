@@ -19,7 +19,7 @@ Late Message: Displays "Sorry, you are late!" if scanned one minute or more past
 Real-Time Feedback: Uses moment-timezone for accurate time calculations in the Asia/Kolkata timezone.<br>
 Voice Alerts: Utilizes the SpeechSynthesisUtterance API to provide auditory feedback corresponding to the displayed message.<br><br>
 
-
+# Here is the working
 
 
 https://github.com/user-attachments/assets/3ef16377-a206-487e-b44d-35b0520df02c
