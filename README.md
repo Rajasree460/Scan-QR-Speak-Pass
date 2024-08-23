@@ -1,6 +1,6 @@
 # Scan QR Speak Pass
 
-I have made an employee card ,that contains some basic details. There is a QR at the below of the card. Scan the QR & if you are scanning it at 10 AM or between 12 Am-10 Am,you can see the message 'Welcome to work!" within an alert box. By any chance if you are late by 1 or more minutes then you can see the message "Sorry, you are late!" . Most import part is you can here the voice alert as well.<br><br>
+I have made an employee card ,that contains some basic details. There is a QR at the below of the card. Scan the QR & if you are scanning it at 10 AM or between 12 Am-10 Am,you can see the message 'Welcome to work!" within an alert box. By any chance if you are late by 1 or more minutes then you can see the message "Sorry, you are late!" . Most import part is you can hear the voice alert as well.<br><br>
 Employee Card with QR Code and Voice Alerts<br>
 Description<br>
 This project implements an employee card that displays essential details about an employee along with a QR code. The QR code provides real-time feedback based on the time of scanning, accompanied by voice alerts.<br><br>
