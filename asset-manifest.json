@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Rajasree460/Scan-QR-Speak-Pass.git/static/css/main.54c06d51.css",
+    "main.js": "/Rajasree460/Scan-QR-Speak-Pass.git/static/js/main.375b9eea.js",
+    "static/js/453.e067c507.chunk.js": "/Rajasree460/Scan-QR-Speak-Pass.git/static/js/453.e067c507.chunk.js",
+    "index.html": "/Rajasree460/Scan-QR-Speak-Pass.git/index.html",
+    "main.54c06d51.css.map": "/Rajasree460/Scan-QR-Speak-Pass.git/static/css/main.54c06d51.css.map",
+    "main.375b9eea.js.map": "/Rajasree460/Scan-QR-Speak-Pass.git/static/js/main.375b9eea.js.map",
+    "453.e067c507.chunk.js.map": "/Rajasree460/Scan-QR-Speak-Pass.git/static/js/453.e067c507.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54c06d51.css",
+    "static/js/main.375b9eea.js"
+  ]
+}
